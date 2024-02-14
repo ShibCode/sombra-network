@@ -5,9 +5,13 @@ const Hero = () => {
   return (
     <div className="flex items-center justify-center relative isolate min-h-[780px] h-screen pt-10 z-10 bg-black">
       <div className="absolute inset-0 -z-10">
-        <img
-          src="/hero-bg.png"
+        <video
+          src="/hero-bg.mp4"
           alt="bg"
+          muted
+          playsInline
+          autoPlay
+          loop
           className="w-full h-full object-cover object-center"
         />
 

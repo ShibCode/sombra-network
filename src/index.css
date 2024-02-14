@@ -9,3 +9,10 @@
     @apply bg-black text-white overflow-x-clip;
   }
 }
+
+.mask {
+  mask-image: url("/public/game-slide-2-mask.png");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center;
+}

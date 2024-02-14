@@ -32,7 +32,10 @@ const Marquee = () => {
   }, []);
 
   return (
-    <div className="h-screen font-turret grid place-items-center" ref={wrapper}>
+    <div
+      className="h-screen min-h-[900px] font-turret grid place-items-center"
+      ref={wrapper}
+    >
       <div className="h-[478px] aspect-[0.93729]" ref={object}>
         <img
           src="/logo-object.gif"
