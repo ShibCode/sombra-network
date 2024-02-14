@@ -19,7 +19,6 @@ const Marquee = () => {
         },
       });
     },
-
     { dependencies: [], revertOnUpdate: true }
   );
 
@@ -33,17 +32,12 @@ const Marquee = () => {
   }, []);
 
   return (
-    <div
-      id="section-0"
-      className="h-screen font-turret grid place-items-center"
-      ref={wrapper}
-    >
-      <div className="h-[478px] aspect-[0.93729] img-wrapper-0">
+    <div className="h-screen font-turret grid place-items-center" ref={wrapper}>
+      <div className="h-[478px] aspect-[0.93729]" ref={object}>
         <img
-          ref={object}
           src="/logo-object.gif"
           alt="logo object"
-          className="z-10 pointer-events-none w-full h-full object-cover logo-object"
+          className="z-10 pointer-events-none w-full h-full object-cover"
         />
       </div>
 

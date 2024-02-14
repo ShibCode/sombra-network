@@ -1,17 +1,16 @@
-import { Flip, ScrollTrigger } from "gsap/all";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 
 const Intro = () => {
   return (
     <div
-      id="section-1"
+      id="intro"
       className="relative flex justify-center h-screen items-center gap-20"
     >
       <span className="absolute left-1/2 -translate-x-1/2 top-8 text-green text-[28px] font-medium">
         INTRO
       </span>
 
-      <div className="h-[603px] aspect-[0.93729] img-wrapper-1"></div>
+      <div className="h-[603px] w-[565px]"></div>
 
       <div className="flex flex-col max-w-[714px] gap-6">
         <h2 className="text-green text-[45px] font-turret leading-[1] uppercase">
