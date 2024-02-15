@@ -5,7 +5,6 @@ import React, { useEffect, useRef } from "react";
 const Marquee = () => {
   const marquee = useRef();
   const wrapper = useRef();
-  const object = useRef();
 
   useGSAP(
     () => {
@@ -33,14 +32,15 @@ const Marquee = () => {
 
   return (
     <div
+      id="section-0"
       className="h-screen min-h-[900px] font-turret grid place-items-center"
       ref={wrapper}
     >
-      <div className="h-[478px] aspect-[0.93729]" ref={object}>
+      <div className="h-[478px] aspect-[0.93729] obj-wrapper-0">
         <img
           src="/logo-object.gif"
           alt="logo object"
-          className="z-10 pointer-events-none w-full h-full object-cover"
+          className="z-10 pointer-events-none w-full h-full object-cover obj"
         />
       </div>
 

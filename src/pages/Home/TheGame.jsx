@@ -81,14 +81,14 @@ const TheGame = () => {
           </div>
         </div>
 
-        <div className="the-game-slide relative h-full px-4 pt-[13.89vh] min-w-[132%] flex-shrink-0">
+        <div className="the-game-slide relative h-full px-4 pt-[13.89vh] min-w-[263vh] flex-shrink-0">
           <img
             src="/the-game-code-1.gif"
             alt="code"
             className="absolute bottom-[5%] -left-[3%] w-[40vh]"
           />
 
-          <div className="absolute top-[12.9%] left-[3.3%] w-[22%]">
+          <div className="absolute top-[15.8%] left-[3.1%] w-[58.1vh]">
             <img
               src="/game-slide-2-text-bg.png"
               alt="text bg"
@@ -97,11 +97,11 @@ const TheGame = () => {
             <span className="text-black font-turret font-medium text-[3.33vh] absolute top-[20%] left-[4%] ">
               02
             </span>
-            <h6 className="font-turret text-[3.1vh] font-medium leading-[1.2] text-black absolute top-[8%] left-[18%] w-[60%]">
+            <h6 className="font-turret text-[3vh] font-medium leading-[1.2] text-black absolute top-[8%] left-[18%] w-[65%]">
               UNFETTERED INDUSTRIAL GROWTH AND CARELESS DISREGARD FOR THE
               ENVIROMENT LED TO AN INSURMOUNTABLE GLOBAL WARMING.
             </h6>
-            <p className="text-[1.55vh] leading-[1.46] text-black left-[18%] top-[49%] w-[62%] absolute">
+            <p className="text-[1.55vh] leading-[1.46] text-black left-[18%] top-[53%] w-[62%] absolute">
               THE ICE CAPS MELTED AND FLOODED THE EARTH, SPREADING A COCKTAIL OF
               POLLUTANTS AND UNKNOWN CHEMICAL AGENTS, HIDDEN IN THE PERMAFROST,
               INTO THE ATMOSPHERE, RADICALLY ALTERING LIFE ON EARTH.{" "}

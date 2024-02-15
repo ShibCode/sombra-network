@@ -3,14 +3,14 @@ import React from "react";
 const Intro = () => {
   return (
     <div
-      id="intro"
+      id="section-1"
       className="relative min-h-[900px] flex justify-center h-screen items-center gap-20"
     >
       <span className="absolute left-1/2 -translate-x-1/2 top-8 text-green text-[28px] font-medium">
         INTRO
       </span>
 
-      <div className="h-[603px] w-[565px] bg-[red]"></div>
+      <div className="h-[603px] w-[565px] bg-[red] obj-wrapper-1"></div>
 
       <div className="flex flex-col max-w-[714px] gap-6">
         <h2 className="text-green text-[45px] font-turret leading-[1] uppercase">
